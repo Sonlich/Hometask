@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid gray;
+  margin: 0 auto;
+  width: 940px;
+}
+
+.mainhead {
+  margin: 0 auto;
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 33px;
+  color: gray;
+}
+
+hr {
+  color: gray;
+  height: 2px;
+  background-color: gray;
+}
+
+.home {
+  color: black;
+}
+
+.name {
+  margin-top: 50px;
+  margin-left: 490px;
+}
+
+.worker {
+  margin: 0 auto;
+  margin-top: -95px;
+  width: 150px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.AboutMe {
+  background-color: #f6f6f6;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Skills {
+  height: 460px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.skillsImg {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 1050px;
+}
+
+.Portfolio {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.PortText {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  text-decoration: underline;
+}
+
+.Contacts {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.SendMessage {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  width: 180px;
+  height: 42px;
+  font-weight: bolder;
+  box-shadow: 1px 1px 1px 1px black;
+  margin-top: 30px;
+}
+
+.SocNet {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.end {
+  color: #828282;
+  font-size: 14px;
+  padding-top: 50px;
+}
+
+.look {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100px;
+}
